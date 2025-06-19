@@ -11,3 +11,8 @@ An AI-integrated voting system using Flask and basic ML for anomaly detection.
 ```bash
 pip install -r requirements.txt
 python app.py
+
+
+---
+
+Would you like this whole project zipped or a GitHub-ready version with commit history and license?
