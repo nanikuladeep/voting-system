@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Voting System</title>
+</head>
+<body>
+    <h1>Cast Your Vote</h1>
+    <form method="POST" action="/vote">
+        <label>User ID:</label><br>
+        <input type="text" name="user_id" required><br><br>
+        <label>Select Candidate:</label><br>
+        <select name="candidate">
+            <option value="Candidate A">Candidate A</option>
+            <option value="Candidate B">Candidate B</option>
+        </select><br><br>
+        <input type="submit" value="Vote">
+    </form>
+</body>
+</html>
